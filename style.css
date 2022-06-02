@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#gridContainer{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid-cell{
+  text-align: center;
+  font-size: 5vmin;
+  background-color: rgb(151,177,217);;
+  border-style: outset;
+  border-width: 0.25vmin;
+  border-color: rgb(151,177,217);
+}
+
+.grid-cell.reveal{
+  background-color: #cce5e8;
+  border-color: #cce5e8;
+  border-style: inset;
+  border-width: 0.25vmin;
+}
+
+.grid-cell.color1{
+  color: #52e752
+}
+.grid-cell.color2{
+  color: blue;
+}
+.grid-cell.color3{
+  color: yellow;
+}
+.grid-cell.color4{
+  color: red;
+}
+.grid-cell.color5{
+  color: magenta;
+}

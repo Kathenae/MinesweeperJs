@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="bs/bootstrap.min.css" type="text/css" media="all" />
+    <script src="bs/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8" defer></script>
+    
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <h3>
+      Minesweeper
+      <br />
+    </h3>
+    
+    <div id="gridContainer">
+    </div>
+    
+    <div id="dialog" class="modal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 id="title">Game Over</h2>
+            <button class="btn-close text-reset" data-bs-dismiss="modal" type="submit"></button>
+          </div>
+          <div class="modal-body">
+            <p id="message">Time's up. Would you like to play again?</p>
+            <button id="yes-button" class="btn btn-primary" data-bs-dismiss="modal" type="submit">Yes</button>
+            <button id="no-button" class="btn btn-secondary" data-bs-dismiss="modal" type="submit">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
